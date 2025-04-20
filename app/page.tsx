@@ -5,7 +5,7 @@ import { FileUploader } from "@/components/file-uploader"
 import { FileList } from "@/components/file-list"
 import { ConnectWallet } from "@/components/connect-wallet"
 import { useAccount } from "@/hooks/use-account"
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+import { Alert, AlertDescription, AlertTitle } from "../components/ui/alert"
 import { AlertCircle } from "lucide-react"
 
 export default function Home() {
